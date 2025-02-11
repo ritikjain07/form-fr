@@ -1,0 +1,276 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .team-details {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .team-details th, .team-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .team-details th {
+    background-color: #f2f2f2;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #caseFIR {
+      padding: 8px;
+    }
+  
+    #caseDate {
+      padding: 8px;
+    }
+  
+    #usSection {
+      padding: 8px;
+    }
+  
+    #policeStation {
+      padding: 8px;
+    }
+  
+    #investigatingOfficer {
+      padding: 8px;
+    }
+  
+    #referenceLetter {
+      padding: 8px;
+    }
+  
+    #referenceDate {
+      padding: 8px;
+    }
+  
+  
+    #teamMember1 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+    #designation1 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+    #signature1 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+    #teamMember2 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+    #designation2 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+    #signature2 {
+      padding: 8px;
+      height: 20px; /* Adjust height as needed */
+      width: 300px; /* Adjust width as needed */
+    }
+  
+  
+  
+    #teamLeader {
+      padding: 8px;
+    }
+  
+  
+    #arrivalTime {
+      padding: 8px;
+    }
+  
+  
+    #departureTime {
+      padding: 8px;
+    }
+  
+    #temperature {
+      padding: 8px;
+    }
+  
+    #crimeSceneType {
+      padding: 8px;
+    }
+  
+    #crimeSceneLocation {
+      padding: 8px;
+    }
+  
+  
+    #crimeNature {
+      padding: 8px;
+    }
+  
+  
+    #weatherConditions {
+      padding: 8px;
+    }
+  
+    #humidity {
+      padding: 8px;
+    }
+  
+  
+  
+    #accusedDetails {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  #accusedDetails h2 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #333;
+  }
+  
+  #accusedDetails .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  #accusedDetails label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  #accusedDetails input,
+  #accusedDetails textarea {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #accusedDetails button {
+    padding: 10px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #accusedDetails button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
+  
+  
+  #victimDetails {
+      padding: 16px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    
+    #victimDetails h2 {
+      font-size: 1.5em;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    
+    #victimDetails .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    
+    #victimDetails label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 4px;
+    }
+    
+    #victimDetails input,
+    #victimDetails textarea {
+      width: 80%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    #victimDetails button {
+      padding: 10px 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    #victimDetails button:hover {
+      background-color: #218838;
+    }
+  
+    /* Add your custom styles here   caseFIR*/
+  
+    #generalObservations {
+      width: 100%; 
+      max-width: 1000px; 
+      box-sizing: border-box;
+    }
+  
+    #caseFIR {
+      /* padding: 8px; */
+      width: 100%; 
+      max-width: 1000px; 
+      box-sizing: border-box;
+    }
+    
+    /* styles.css */
+  #temperatureUnit {
+    padding: 8px;
+    width: 250px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+  }
+  
